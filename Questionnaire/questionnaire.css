@@ -1,10 +1,6 @@
-
-/* Global css */
-
 body {
     background-color: #FFF;
     margin: 0 auto;
-    
   }
   
   header {
@@ -78,11 +74,14 @@ body {
     font-size: 18px;
   }
   
-
+  footer {
+    background-color: rgb(171, 218, 235);
+    text-align: center;
+    height: 100px;
+   
   
-
-
-  /* BANNIER */
+    
+  }
   
   .bannier {
     background-color: turquoise;
@@ -93,14 +92,12 @@ body {
     position: relative;
     top: 50px;
   }
-
-
-  /* QUESTION/RESPONSE */
   
   .question {
     text-align: center;
     position: relative;
     top: 40px;
+    padding: 2px;
     
   }
   
@@ -109,6 +106,7 @@ body {
   .reponse {
     border: 1px solid #68948E;
     margin: 20px;
+    margin-bottom: 2px;
     display: inline-block;
     height: 147px;
     width: 200px;
@@ -134,14 +132,4 @@ body {
   }
 
   
-  /*FOOTER*/
-
-  footer {
-    background-color: rgb(171, 218, 235);
-    text-align: center;
-    height: 100px;
-    margin-top: 2rem;
-   
   
-    
-  }
